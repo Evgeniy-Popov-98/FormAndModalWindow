@@ -388,6 +388,46 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="backdrop">
+		<div class="modal">
+			<button type="button" class="modal-btn">
+				<svg class="modal-btn-icon" width="24" height="24">
+					<use href="./images/icons.svg#icon-close"></use>
+					<use href="./images/icons.svg#icon-linkedin"></use>
+				</svg>
+
+				<!-- <svg class="modal-btn-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+					<circle cx="12" cy="12" r="12" fill="#E7E9FC" />
+					<circle cx="12" cy="12" r="11.5" stroke="#000" stroke-opacity=".1" />
+					<g clip-path="url(#a)">
+						<path fill="#2E2F42"
+							d="M16 8.806 15.194 8 12 11.194 8.806 8 8 8.806 11.194 12 8 15.194l.806.806L12 12.806 15.194 16l.806-.806L12.806 12 16 8.806Z" />
+					</g>
+					<defs>
+						<clipPath id="a">
+							<path fill="#fff" d="M8 8h8v8H8z" />
+						</clipPath>
+					</defs>
+				</svg> -->
+
+			</button>
+
+			<p class="modal-title">Leave your contacts and we will call you back</p>
+			<form class="modal-form" name="modal-form">
+				<label for="user-name" class="modal-label">Name</label>
+				<input type="text" class="modal-input" name="user-name" id="user-name">
+
+				<label for="user-tel" class="modal-label">Phone</label>
+				<input type="tel" class="modal-input" name="user-tel" id="user-tel" required>
+
+				<label for="user-email" class="modal-label">Email</label>
+				<input type="email" class="modal-input" name="user-email" id="user-email">
+
+
+			</form>
+		</div>
+	</div>
 </body>
 
 </html>
